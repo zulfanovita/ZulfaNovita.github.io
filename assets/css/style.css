@@ -61,6 +61,11 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
+  /* new color solid */
+  --almond: hsl(23.2, 18.8%, 91.75%);
+  --champagne: hsl(24.5, 73%, 91.15%);
+
+
   /**
    * typography
    */
@@ -144,7 +149,11 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
+/* old */
 body { background: var(--smoky-black); }
+
+/* new */
+/* body { background: var(--champagne); } */
 
 
 /*-----------------------------------*\
